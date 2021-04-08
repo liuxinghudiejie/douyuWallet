@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2271FCE8FA3A5E5CD971D74CE0D250FC /* Pods-DouyuWallet_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23502A44A900FFCD2F92D94895C9F95D /* Pods-DouyuWallet_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F5A79A68431B320889DB1C5B54A7769 /* DouyuWallet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A2D4FCD0FDBBB6AAE411382788AB70 /* DouyuWallet-dummy.m */; };
+		422592D023FD494558A206AA4846169D /* DouyuWallet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEF3F6948055B9E786DA0474EB47317 /* DouyuWallet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6374EFAE1897B769B381A4D51029B219 /* Pods-DouyuWallet_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 174670428DA651FF43019852CB0E1436 /* Pods-DouyuWallet_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A75AC2EC9F9DF736B0BCCD774C17D24 /* Pods-DouyuWallet_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0935CCB193BD717ADFEECE9D1A3B74EC /* Pods-DouyuWallet_Tests-dummy.m */; };
+		6E0C744EC70D9702EB960FC864C152C5 /* wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884CD0A3E2DBC7A1AA22DC1A471F2245 /* wallet.swift */; };
+		87D4207F15B5F225F47536607A81A1D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A0A2A09725D573F8DE00A8BEA18F8946 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3142A9D7F751980C0BEDBCF7F1CFCFCC /* ReplaceMe.swift */; };
+		B83733B7D6176F3FD1D3AD503623AAD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ECDA125DF3F49203348641705B307D94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F2B316BFF781B4442A8D2DEA68D5C7B3 /* Pods-DouyuWallet_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA26946FDB7D932F5E56AA0518FCB9D1 /* Pods-DouyuWallet_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FB68EE784F6F16E822CBD3D2D8FEE8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E89D46102B6079158244D73166CEB70;
+			remoteInfo = DouyuWallet;
+		};
+		99F0634BC0BBA7AA29B92886D5BC830C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D02506A947C593EC6690727AF2A8B34;
+			remoteInfo = "Pods-DouyuWallet_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0935CCB193BD717ADFEECE9D1A3B74EC /* Pods-DouyuWallet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DouyuWallet_Tests-dummy.m"; sourceTree = "<group>"; };
+		15500391F90CB0700E32630C3B55A812 /* DouyuWallet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DouyuWallet-prefix.pch"; sourceTree = "<group>"; };
+		17159392FB30F48A7E35D88F12DCA307 /* Pods-DouyuWallet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DouyuWallet_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		174670428DA651FF43019852CB0E1436 /* Pods-DouyuWallet_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DouyuWallet_Example-umbrella.h"; sourceTree = "<group>"; };
+		18C5891454F9D47103F26422B8753904 /* Pods_DouyuWallet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouyuWallet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1980FDAF9C57F44B2656A678A3C0E68F /* Pods-DouyuWallet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DouyuWallet_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1C16387B9EF14488F754813A49B6C07C /* Pods-DouyuWallet_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DouyuWallet_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23502A44A900FFCD2F92D94895C9F95D /* Pods-DouyuWallet_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DouyuWallet_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3142A9D7F751980C0BEDBCF7F1CFCFCC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DouyuWallet/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		3DC5FA9D715A94D65C19E7C8D6269C5E /* Pods_DouyuWallet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouyuWallet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D252639D97C712096F64F5E9AE09B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		564418B0D26B1C70FA5D8D3F3031DBC4 /* Pods-DouyuWallet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DouyuWallet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FEF3F6948055B9E786DA0474EB47317 /* DouyuWallet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DouyuWallet-umbrella.h"; sourceTree = "<group>"; };
+		6A31333F426D528AE331EEBA1D221C14 /* DouyuWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DouyuWallet.debug.xcconfig; sourceTree = "<group>"; };
+		6C17F6F94828FC23B34303292D1CE98C /* DouyuWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DouyuWallet.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D64A1D95496D8FBD9F76AD9755ED221 /* Pods-DouyuWallet_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DouyuWallet_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83A2D4FCD0FDBBB6AAE411382788AB70 /* DouyuWallet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DouyuWallet-dummy.m"; sourceTree = "<group>"; };
+		85847A10568E7E98A81536ED769EE766 /* Pods-DouyuWallet_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DouyuWallet_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		884CD0A3E2DBC7A1AA22DC1A471F2245 /* wallet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = wallet.swift; path = DouyuWallet/Classes/wallet.swift; sourceTree = "<group>"; };
+		8FBA39F6ADFD275694AC33C2B54EF702 /* Pods-DouyuWallet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DouyuWallet_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9BBE1E1C0B85FDEADA4F9DBBBA078F5E /* DouyuWallet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DouyuWallet.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EFD4E8423C3EE3BEF56D1DC7C63E67E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A8734044EC7965311DB6EDD36AECC05F /* DouyuWallet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DouyuWallet.modulemap; sourceTree = "<group>"; };
+		B47D30D82BB0CC0791D9BC15A5977D1E /* DouyuWallet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DouyuWallet-Info.plist"; sourceTree = "<group>"; };
+		C15D2F401BF2380E36CC7DA109F7ABAA /* Pods-DouyuWallet_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DouyuWallet_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CF7C2987148274A344CDA8D5CE929955 /* Pods-DouyuWallet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DouyuWallet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA5A5615C73A9D766965B8FA1683B69C /* Pods-DouyuWallet_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DouyuWallet_Tests-Info.plist"; sourceTree = "<group>"; };
+		E1260BBADA53A051A9A15EAC62CBC50F /* DouyuWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DouyuWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4285492259D6834AFB6DCB8F88B42E7 /* Pods-DouyuWallet_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DouyuWallet_Example-Info.plist"; sourceTree = "<group>"; };
+		ECB2C47AE2CC2F8B81CC77AD577BEA39 /* Pods-DouyuWallet_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DouyuWallet_Example.modulemap"; sourceTree = "<group>"; };
+		F260EF0EB4C1C185E1EBE6754230DCE6 /* Pods-DouyuWallet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DouyuWallet_Tests.modulemap"; sourceTree = "<group>"; };
+		FA26946FDB7D932F5E56AA0518FCB9D1 /* Pods-DouyuWallet_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DouyuWallet_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D81217994EEF8D184A82DB00B2417F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDA125DF3F49203348641705B307D94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7930985B0916436BB04D915FA02BEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83733B7D6176F3FD1D3AD503623AAD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF751D4E73B45BAB579DFA94363A03C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D4207F15B5F225F47536607A81A1D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1374BDCDF16959CBE9AE4DA919695766 /* Pods-DouyuWallet_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F260EF0EB4C1C185E1EBE6754230DCE6 /* Pods-DouyuWallet_Tests.modulemap */,
+				564418B0D26B1C70FA5D8D3F3031DBC4 /* Pods-DouyuWallet_Tests-acknowledgements.markdown */,
+				7D64A1D95496D8FBD9F76AD9755ED221 /* Pods-DouyuWallet_Tests-acknowledgements.plist */,
+				0935CCB193BD717ADFEECE9D1A3B74EC /* Pods-DouyuWallet_Tests-dummy.m */,
+				DA5A5615C73A9D766965B8FA1683B69C /* Pods-DouyuWallet_Tests-Info.plist */,
+				23502A44A900FFCD2F92D94895C9F95D /* Pods-DouyuWallet_Tests-umbrella.h */,
+				CF7C2987148274A344CDA8D5CE929955 /* Pods-DouyuWallet_Tests.debug.xcconfig */,
+				17159392FB30F48A7E35D88F12DCA307 /* Pods-DouyuWallet_Tests.release.xcconfig */,
+			);
+			name = "Pods-DouyuWallet_Tests";
+			path = "Target Support Files/Pods-DouyuWallet_Tests";
+			sourceTree = "<group>";
+		};
+		2D34BEB47CA2DED1D0CA342ED6D2C2FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8734044EC7965311DB6EDD36AECC05F /* DouyuWallet.modulemap */,
+				83A2D4FCD0FDBBB6AAE411382788AB70 /* DouyuWallet-dummy.m */,
+				B47D30D82BB0CC0791D9BC15A5977D1E /* DouyuWallet-Info.plist */,
+				15500391F90CB0700E32630C3B55A812 /* DouyuWallet-prefix.pch */,
+				5FEF3F6948055B9E786DA0474EB47317 /* DouyuWallet-umbrella.h */,
+				6A31333F426D528AE331EEBA1D221C14 /* DouyuWallet.debug.xcconfig */,
+				6C17F6F94828FC23B34303292D1CE98C /* DouyuWallet.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DouyuWallet";
+			sourceTree = "<group>";
+		};
+		41C0F099C660C3746BC4E0896CED795C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1260BBADA53A051A9A15EAC62CBC50F /* DouyuWallet.framework */,
+				3DC5FA9D715A94D65C19E7C8D6269C5E /* Pods_DouyuWallet_Example.framework */,
+				18C5891454F9D47103F26422B8753904 /* Pods_DouyuWallet_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		846166A82C4721A548925F5594E850CA /* DouyuWallet */ = {
+			isa = PBXGroup;
+			children = (
+				3142A9D7F751980C0BEDBCF7F1CFCFCC /* ReplaceMe.swift */,
+				884CD0A3E2DBC7A1AA22DC1A471F2245 /* wallet.swift */,
+				96F5E1070BBECF09B5743219F3F98F68 /* Pod */,
+				2D34BEB47CA2DED1D0CA342ED6D2C2FD /* Support Files */,
+			);
+			name = DouyuWallet;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		96F5E1070BBECF09B5743219F3F98F68 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9BBE1E1C0B85FDEADA4F9DBBBA078F5E /* DouyuWallet.podspec */,
+				54D252639D97C712096F64F5E9AE09B6 /* LICENSE */,
+				9EFD4E8423C3EE3BEF56D1DC7C63E67E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AC0E869FE108B595EB0A1F66070C936F /* Pods-DouyuWallet_Example */ = {
+			isa = PBXGroup;
+			children = (
+				ECB2C47AE2CC2F8B81CC77AD577BEA39 /* Pods-DouyuWallet_Example.modulemap */,
+				1C16387B9EF14488F754813A49B6C07C /* Pods-DouyuWallet_Example-acknowledgements.markdown */,
+				85847A10568E7E98A81536ED769EE766 /* Pods-DouyuWallet_Example-acknowledgements.plist */,
+				FA26946FDB7D932F5E56AA0518FCB9D1 /* Pods-DouyuWallet_Example-dummy.m */,
+				C15D2F401BF2380E36CC7DA109F7ABAA /* Pods-DouyuWallet_Example-frameworks.sh */,
+				E4285492259D6834AFB6DCB8F88B42E7 /* Pods-DouyuWallet_Example-Info.plist */,
+				174670428DA651FF43019852CB0E1436 /* Pods-DouyuWallet_Example-umbrella.h */,
+				1980FDAF9C57F44B2656A678A3C0E68F /* Pods-DouyuWallet_Example.debug.xcconfig */,
+				8FBA39F6ADFD275694AC33C2B54EF702 /* Pods-DouyuWallet_Example.release.xcconfig */,
+			);
+			name = "Pods-DouyuWallet_Example";
+			path = "Target Support Files/Pods-DouyuWallet_Example";
+			sourceTree = "<group>";
+		};
+		BDA6F137F3CCD4DBD954A35AADCF5B57 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E869FE108B595EB0A1F66070C936F /* Pods-DouyuWallet_Example */,
+				1374BDCDF16959CBE9AE4DA919695766 /* Pods-DouyuWallet_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DB9B6232E96637A15FDE8101D01B5138 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				41C0F099C660C3746BC4E0896CED795C /* Products */,
+				BDA6F137F3CCD4DBD954A35AADCF5B57 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB9B6232E96637A15FDE8101D01B5138 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				846166A82C4721A548925F5594E850CA /* DouyuWallet */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C2B0618F728F321496B20DE3532402D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6374EFAE1897B769B381A4D51029B219 /* Pods-DouyuWallet_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8599D5E3DD0DD38C60EE105C62C231C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422592D023FD494558A206AA4846169D /* DouyuWallet-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53F261776579C5F7BB197D4DD9A2D29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2271FCE8FA3A5E5CD971D74CE0D250FC /* Pods-DouyuWallet_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02BDCBE49DAE59B5F18CBDBDD7411999 /* Pods-DouyuWallet_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13DF9A7E733B6D2A7FC4E91FD70B0D49 /* Build configuration list for PBXNativeTarget "Pods-DouyuWallet_Tests" */;
+			buildPhases = (
+				D53F261776579C5F7BB197D4DD9A2D29 /* Headers */,
+				5553FAE43E0137A8F209580AFC2CB0F3 /* Sources */,
+				B7930985B0916436BB04D915FA02BEB0 /* Frameworks */,
+				BC1164AE2725041C0D994CAE0A0D1571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9FBDA7CAF74A8BEEE0F1E6D395D40A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-DouyuWallet_Tests";
+			productName = "Pods-DouyuWallet_Tests";
+			productReference = 18C5891454F9D47103F26422B8753904 /* Pods_DouyuWallet_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E89D46102B6079158244D73166CEB70 /* DouyuWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED5F614735EB3C40253CCF6CAE5E76D /* Build configuration list for PBXNativeTarget "DouyuWallet" */;
+			buildPhases = (
+				C8599D5E3DD0DD38C60EE105C62C231C /* Headers */,
+				BF539053CD0BD9A80C21A8CEC6D1CEE7 /* Sources */,
+				CF751D4E73B45BAB579DFA94363A03C6 /* Frameworks */,
+				57C65F54C724E897A4ADFFA609027497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DouyuWallet;
+			productName = DouyuWallet;
+			productReference = E1260BBADA53A051A9A15EAC62CBC50F /* DouyuWallet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D02506A947C593EC6690727AF2A8B34 /* Pods-DouyuWallet_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72897CDA83196D97606E65C2B9F254D /* Build configuration list for PBXNativeTarget "Pods-DouyuWallet_Example" */;
+			buildPhases = (
+				C2B0618F728F321496B20DE3532402D2 /* Headers */,
+				0CB07A9B807683C4B46A150A52DEA408 /* Sources */,
+				8D81217994EEF8D184A82DB00B2417F8 /* Frameworks */,
+				62EBA345B5A39B1DCF2B8E6F26F743FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EECB125C3011A205318839B9AAACC76 /* PBXTargetDependency */,
+			);
+			name = "Pods-DouyuWallet_Example";
+			productName = "Pods-DouyuWallet_Example";
+			productReference = 3DC5FA9D715A94D65C19E7C8D6269C5E /* Pods_DouyuWallet_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 41C0F099C660C3746BC4E0896CED795C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E89D46102B6079158244D73166CEB70 /* DouyuWallet */,
+				7D02506A947C593EC6690727AF2A8B34 /* Pods-DouyuWallet_Example */,
+				02BDCBE49DAE59B5F18CBDBDD7411999 /* Pods-DouyuWallet_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C65F54C724E897A4ADFFA609027497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62EBA345B5A39B1DCF2B8E6F26F743FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1164AE2725041C0D994CAE0A0D1571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CB07A9B807683C4B46A150A52DEA408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B316BFF781B4442A8D2DEA68D5C7B3 /* Pods-DouyuWallet_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5553FAE43E0137A8F209580AFC2CB0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A75AC2EC9F9DF736B0BCCD774C17D24 /* Pods-DouyuWallet_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF539053CD0BD9A80C21A8CEC6D1CEE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5A79A68431B320889DB1C5B54A7769 /* DouyuWallet-dummy.m in Sources */,
+				A0A2A09725D573F8DE00A8BEA18F8946 /* ReplaceMe.swift in Sources */,
+				6E0C744EC70D9702EB960FC864C152C5 /* wallet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EECB125C3011A205318839B9AAACC76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DouyuWallet;
+			target = 6E89D46102B6079158244D73166CEB70 /* DouyuWallet */;
+			targetProxy = 7FB68EE784F6F16E822CBD3D2D8FEE8D /* PBXContainerItemProxy */;
+		};
+		C9FBDA7CAF74A8BEEE0F1E6D395D40A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DouyuWallet_Example";
+			target = 7D02506A947C593EC6690727AF2A8B34 /* Pods-DouyuWallet_Example */;
+			targetProxy = 99F0634BC0BBA7AA29B92886D5BC830C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		252264EF6B41A1541CC197CE65E8D32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1980FDAF9C57F44B2656A678A3C0E68F /* Pods-DouyuWallet_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DouyuWallet_Example/Pods-DouyuWallet_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DouyuWallet_Example/Pods-DouyuWallet_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		30D1EDD2DC6E42680EF7A544F337AD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C17F6F94828FC23B34303292D1CE98C /* DouyuWallet.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DouyuWallet/DouyuWallet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DouyuWallet/DouyuWallet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DouyuWallet/DouyuWallet.modulemap";
+				PRODUCT_MODULE_NAME = DouyuWallet;
+				PRODUCT_NAME = DouyuWallet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CADBF86F0AF1B1F759AF57210E57CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBA39F6ADFD275694AC33C2B54EF702 /* Pods-DouyuWallet_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DouyuWallet_Example/Pods-DouyuWallet_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DouyuWallet_Example/Pods-DouyuWallet_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5082ED5DA4C7E695B6BE566531BDFEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF7C2987148274A344CDA8D5CE929955 /* Pods-DouyuWallet_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DouyuWallet_Tests/Pods-DouyuWallet_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DouyuWallet_Tests/Pods-DouyuWallet_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C19A97A6FB69971CC55BE2882E2DE597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17159392FB30F48A7E35D88F12DCA307 /* Pods-DouyuWallet_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DouyuWallet_Tests/Pods-DouyuWallet_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DouyuWallet_Tests/Pods-DouyuWallet_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FDC535F2279B135974D0253C2F994462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A31333F426D528AE331EEBA1D221C14 /* DouyuWallet.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DouyuWallet/DouyuWallet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DouyuWallet/DouyuWallet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DouyuWallet/DouyuWallet.modulemap";
+				PRODUCT_MODULE_NAME = DouyuWallet;
+				PRODUCT_NAME = DouyuWallet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13DF9A7E733B6D2A7FC4E91FD70B0D49 /* Build configuration list for PBXNativeTarget "Pods-DouyuWallet_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5082ED5DA4C7E695B6BE566531BDFEF6 /* Debug */,
+				C19A97A6FB69971CC55BE2882E2DE597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72897CDA83196D97606E65C2B9F254D /* Build configuration list for PBXNativeTarget "Pods-DouyuWallet_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252264EF6B41A1541CC197CE65E8D32C /* Debug */,
+				3CADBF86F0AF1B1F759AF57210E57CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED5F614735EB3C40253CCF6CAE5E76D /* Build configuration list for PBXNativeTarget "DouyuWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC535F2279B135974D0253C2F994462 /* Debug */,
+				30D1EDD2DC6E42680EF7A544F337AD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

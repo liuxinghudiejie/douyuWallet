@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'DouyuWallet_Example' do
-  pod 'DouyuWallet', :path => '../'
+pod 'DouyuWallet', :path => '../'
 
   target 'DouyuWallet_Tests' do
     inherit! :search_paths

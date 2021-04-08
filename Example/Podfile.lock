@@ -1,0 +1,16 @@
+PODS:
+  - DouyuWallet (0.1.0)
+
+DEPENDENCIES:
+  - DouyuWallet (from `../`)
+
+EXTERNAL SOURCES:
+  DouyuWallet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DouyuWallet: f4f69555e2130721227701273cb0a0cf4cb96cf4
+
+PODFILE CHECKSUM: 28082d020da0b7b26695f0401257f7b18cfc5ab7
+
+COCOAPODS: 1.10.1
