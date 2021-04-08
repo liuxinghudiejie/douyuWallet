@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of DouyuWallet.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/394758747@qq.com/DouyuWallet",
+  "homepage": "https://github.com/liuxinghudiejie/douyuWallet",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "394758747@qq.com": "3304567487@qq.com"
+    "xin": "394758747@qq.com"
   },
   "source": {
-    "git": "https://github.com/394758747@qq.com/DouyuWallet.git",
+    "git": "https://github.com/liuxinghudiejie/douyuWallet.git",
     "tag": "0.1.0"
   },
   "platforms": {
